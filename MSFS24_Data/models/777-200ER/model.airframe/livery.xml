@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo>
+	<LODS>
+		<LOD MinSize="100" ModelFile="Livery_LOD0.gltf"/>
+		<LOD MinSize="50" ModelFile="Livery_LOD0.gltf"/>
+		<LOD MinSize="30" ModelFile="Livery_LOD0.gltf"/>	
+		<LOD MinSize="15" ModelFile="Livery_LOD0.gltf"/>	
+		<LOD MinSize="5" ModelFile="Livery_LOD0.gltf"/>		
+		<LOD MinSize="1" ModelFile="Livery_LOD0.gltf"/>	
+	</LODS>
+</ModelInfo>

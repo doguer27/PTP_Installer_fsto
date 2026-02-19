@@ -1,0 +1,191 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for 3dsmax 2023 v1.0.9161.21312",
+        "extensions": {
+            "ASOBO_normal_map_convention": {
+                "tangent_space_convention": "DirectX"
+            }
+        }
+    },
+    "extensionsUsed": [
+        "ASOBO_normal_map_convention",
+        "ASOBO_unique_id",
+        "ASOBO_material_geometry_decal"
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "translation": [
+                1.53779984e-05,
+                -0.679015934,
+                -2.96806952e-08
+            ],
+            "rotation": [
+                2.74181366e-06,
+                0.0,
+                2.98023224e-07,
+                1.0
+            ],
+            "name": "vc_top_decal",
+            "extensions": {
+                "ASOBO_unique_id": {
+                    "id": "x0_vc_top_decal"
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "COLOR_0": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ],
+            "name": "x0_vc_top_decal"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5123,
+            "count": 1824,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 390,
+            "max": [
+                1.257069,
+                3.93996119,
+                26.730547
+            ],
+            "min": [
+                -1.25705826,
+                0.565891266,
+                24.5280838
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 4680,
+            "componentType": 5126,
+            "count": 390,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 390,
+            "type": "VEC4",
+            "name": "accessorColors"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 390,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 3648,
+            "name": "bufferViewScalar"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3648,
+            "byteLength": 9360,
+            "byteStride": 12,
+            "name": "bufferViewFloatVec3"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13008,
+            "byteLength": 6240,
+            "byteStride": 16,
+            "name": "bufferViewFloatVec4"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 19248,
+            "byteLength": 3120,
+            "byteStride": 8,
+            "name": "bufferViewFloatVec2"
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "Livery_LOD0.bin",
+            "byteLength": 22368
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "occlusionTexture": {
+                "index": 1
+            },
+            "alphaMode": "BLEND",
+            "name": "Wing Decal",
+            "extensions": {
+                "ASOBO_material_geometry_decal": {
+                    "metallicBlendFactor": 0.8,
+                    "roughnessBlendFactor": 0.8,
+                    "normalBlendFactor": 0.0,
+                    "occlusionBlendFactor": 0.8,
+                    "blendSharpnessFactor": 1.0,
+                    "mode": "default"
+                }
+            }
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "name": "77WGDEC_A"
+        },
+        {
+            "source": 1,
+            "name": "77WGDEC_C"
+        }
+    ],
+    "images": [
+        {
+            "uri": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Export\\200ER 2024\\77WGDEC_A.png"
+        },
+        {
+            "uri": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Export\\200ER 2024\\77WGDEC_C.png"
+        }
+    ]
+}
